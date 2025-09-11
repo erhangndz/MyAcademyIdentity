@@ -32,7 +32,7 @@ namespace EmailApp.Controllers
                 return View(model);
             }
 
-            return RedirectToAction("Index","Home");
+            return RedirectToAction("Index","Message");
         }
     }
 }
